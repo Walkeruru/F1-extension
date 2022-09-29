@@ -1,0 +1,29 @@
+body{
+    width: 450px;
+}
+#tabla, #tablaDrivers,#tablaDriversTitulo{
+    display: none;
+}
+.mostrar{
+    display: block!important;
+}
+#mostrarResultados{
+    border-radius: 5em;
+    background-color: white;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+#mostrarResultados:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(202 202 212 / 60%);
+    border-radius: 20px;
+}
+#prevRace:hover, #nextRace:hover, #tablaCampeonato:hover{
+    background-color: #0d6efd;
+    color: white;
+}

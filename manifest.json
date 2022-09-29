@@ -1,0 +1,17 @@
+{
+    "name": "F1 Extension",
+    "description": "F1 calendario, tablas y mas.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "F1 Extension"
+    },
+    "icons": {
+      "16": "img/icon.png",
+      "32": "img/icon.png",
+      "48": "img/icon.png",
+      "128": "img/icon.png"
+    }
+}
