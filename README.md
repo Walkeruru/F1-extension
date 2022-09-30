@@ -11,6 +11,7 @@ Seleccionamos la carpeta del repositorio y ya quedaría pronta la extensión.
 
 ## Uso
 ![app](https://i.postimg.cc/hvSNKFWC/2.png)
+
 Al Abrir la extensión se nos mostrara la información de la próxima carrera,
 con el botón Tabla podremos ver la tabla de posiciones del campeonato y las flechas sirven para moverse de carrera según corresponda.
 El botón resultados aparecerá en las carreras ya finalizadas y mostrara el resultado de estas carreras
