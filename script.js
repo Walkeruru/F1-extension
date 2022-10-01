@@ -175,7 +175,7 @@ function transformarHora(fecha){
     fecha[0] = Number(fecha[0])-3;
     fecha = fecha.join(":");
     fecha = fecha.split("Z")[0];
-    return fecha + " " + "GTM-3"
+    return fecha + " " + "UTC-3"
 }
 
 function raceDay(fecha){
