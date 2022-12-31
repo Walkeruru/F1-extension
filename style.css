@@ -1,7 +1,7 @@
 body{
-    width: 450px;
+    width: 550px;
 }
-#tabla, #tablaDrivers,#tablaDriversTitulo{
+#tabla{
     display: none;
 }
 .mostrar{
@@ -23,7 +23,55 @@ body{
     background: rgb(202 202 212 / 60%);
     border-radius: 20px;
 }
-#prevRace:hover, #nextRace:hover, #tablaCampeonato:hover{
+#prevRace:hover, #nextRace:hover, #tablaCampeonato:hover, #tablaEquipos:hover, #back:hover{
     background-color: #0d6efd;
     color: white;
+}
+@font-face {
+    font-family: f1;
+    src: url(fonts/Formula1-Regular.ttf);
+}
+*{
+    font-family: f1;
+}
+.Mercedes{
+    background-color: #00D2BE;
+}
+.Ferrari{
+    background-color: #DC0000;
+    color: white;
+}
+.Alpine{
+    background-color: #0090FF;
+    color: rgb(0, 0, 0);
+}
+.Haas{
+    background-color: #ffffff;
+}
+.Aston{
+    background-color: #006F62;
+    color: white;
+}
+.Alfa{
+    background-color: #900000;
+    color: white;
+}
+.McLaren{
+    background-color: #FF8700;
+    color: black;
+}
+.Williams{
+    background-color: #005AFF;
+    color: rgb(0, 0, 0);
+}
+.AlphaTauri{
+    background-color: #2B4562;
+    color: white
+}
+.Red{
+    background-color: #0600EF;
+    color: white;
+}
+.pointer{
+    cursor: pointer;
 }

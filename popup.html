@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src="js/bootstrap.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 <body class="bg-light">
     <nav class="navbar bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo-F1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  
-            Calendario
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-F1.png" alt="Logo" width="50"> 
+          <span class="fs-5 ms-2">Calendario</span>
         </a>
-        </div>
-      </nav>
+      </div>
+    </nav>
     <div class="container">
         
     </div>
-    <div class="tablaCampeonato">
+    <div class="tablaCampeonato d-none" id="drivers">
         
+    </div>
+    <div class="tablaEscuderias d-none" id="escuderias">
+        
+    </div>
+    <div id="spinner-wrapper" style="display: none;">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
 </body>
 </html>
